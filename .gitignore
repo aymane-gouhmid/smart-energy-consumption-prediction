@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local data
+data/raw/*
+data/processed/*
+
+# Keep folder placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated files
+reports/*.png
+reports/*.csv
+reports/*.json
+
+# OS and editor
+.DS_Store
+Thumbs.db
